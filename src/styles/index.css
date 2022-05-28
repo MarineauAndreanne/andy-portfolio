@@ -1,0 +1,41 @@
+.homepage {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+
+img {
+  border-radius: 50%;
+  position: relative;
+  margin-top: 90px;
+  width: 300px;
+}
+
+.infos {
+  margin-left: 80px;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 66px;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--dark-grey);
+  margin-bottom: 30px;
+}
+
+a {
+  color: var(--accents);
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+  margin-right: 20px;
+}
+
+a:hover {
+  margin-top: -10px;
+}
