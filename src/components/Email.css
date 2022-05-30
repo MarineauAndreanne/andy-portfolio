@@ -3,24 +3,11 @@
 .contact {
   width: 100%;
 }
-.page-title {
-  background-color: var(--light-grey);
-  border-radius: 1px;
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  padding: 10px 10px;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 75px;
-}
 
 form {
   margin: 0 auto;
 }
+
 input,
 textarea {
   background-color: transparent;
@@ -34,6 +21,7 @@ textarea {
   outline: none;
   padding: 10px 15px;
 }
+
 .message {
   height: 180px;
   resize: none;
@@ -49,7 +37,7 @@ button {
   border-radius: 1px;
   color: white;
   font-size: 15px;
-  margin-top: 10px;
+  margin: 10px 0;
   padding: 15px 30px;
   transition: all 200ms ease-in-out;
 }

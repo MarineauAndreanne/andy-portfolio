@@ -8,20 +8,26 @@ import {
   faSuitcase,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons"
-
+import logo from "../images/andy-logo-2.png"
 import "./Sidebar.css"
 
 const Sidebar = () => {
   return (
     <div className="sidebar-container">
       <ul className="sidebar-links">
-        <img src="../images/dark.png" alt="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="logo" />
+        </Link>
         <li>
           <Link
             to="/"
             style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+            activeStyle={{
+              color: "#000",
+              fontWeight: 600,
+            }}
           >
-            <FontAwesomeIcon icon={faHouse} className="link-icon" />
+            <FontAwesomeIcon icon={faHouse} className="link-icon home" />
             <span className="link-title">Home</span>
           </Link>
         </li>
@@ -29,6 +35,10 @@ const Sidebar = () => {
           <Link
             to="/about"
             style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+            activeStyle={{
+              color: "#000",
+              fontWeight: 600,
+            }}
           >
             <FontAwesomeIcon icon={faUser} className="link-icon" />
             <span className="link-title">About</span>
@@ -38,6 +48,10 @@ const Sidebar = () => {
           <Link
             to="/portfolio"
             style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+            activeStyle={{
+              color: "#000",
+              fontWeight: 600,
+            }}
           >
             <FontAwesomeIcon icon={faSuitcase} className="link-icon" />
             <span className="link-title">Portfolio</span>
@@ -47,6 +61,10 @@ const Sidebar = () => {
           <Link
             to="/contact"
             style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+            activeStyle={{
+              color: "#000",
+              fontWeight: 600,
+            }}
           >
             <FontAwesomeIcon icon={faEnvelope} className="link-icon" />
             <span className="link-title">Contact</span>
@@ -57,7 +75,7 @@ const Sidebar = () => {
           <br />
           Coded by Andreanne Marineau
           <br />
-          Original design by SADSAD
+          Original design by Ib-Themes
         </li>
       </ul>
     </div>

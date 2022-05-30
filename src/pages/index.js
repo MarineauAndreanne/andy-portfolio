@@ -18,7 +18,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <section className="homepage">
-        <div className="photo">
+        <div className="portrait">
           <img src={ProfilePicture} alt="portait" />
         </div>
         <div className="infos">
@@ -28,10 +28,10 @@ const IndexPage = () => {
               MARINEAU
             </h1>
           </div>
-          <div className="description">
+          <div className="homepage-description">
             <p>
-              blablablablalbalblablablablalbalblablablablalbalblablablablalbal
-              blablablablalbal blablablablalbal blablablablalbal
+              Creative Photographer based in New York and happy to travel all
+              over Europe to capture photos.
             </p>
           </div>
           <div className="social-media-links">

@@ -23,9 +23,26 @@
   height: 100vh;
 }
 
+.page-title {
+  background-color: var(--light-grey);
+  border-radius: 1px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 75px;
+}
+
 @media screen and (max-width: 1200px) {
   .content {
     margin-left: 0;
     padding-top: 180px;
+    text-align: center;
+    width: 100vh;
   }
 }
