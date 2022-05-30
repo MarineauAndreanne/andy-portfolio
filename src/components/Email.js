@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import emailjs from "emailjs-com"
 
-import "./Email.css"
+import { StyledEmail } from "./styled/StyledEmail"
 
-const Email = () => {
+const Email = ({ title, description }) => {
   const [emailSuccess, setEmailSuccess] = useState(null)
 
   function sendEmail(e) {
@@ -29,28 +29,30 @@ const Email = () => {
   }
 
   return (
-    <section className="contact">
-      <span className="page-title">CONTACT</span>
-      <h2>Get in Touch</h2>
-      <form onSubmit={sendEmail}>
-        <input type="text" placeholder="Name" name="from_name"></input>
-        <input type="email" placeholder="Email" name="reply_to"></input>
-        <textarea
-          placeholder="Message"
-          className="message"
-          name="message"
-        ></textarea>
-        <button type="submit">Send Message</button>
-        {emailSuccess ? (
-          <small>
-            <br />
-            Thanks for getting in touch ! ⭐️
-          </small>
-        ) : (
-          <span></span>
-        )}
-      </form>
-    </section>
+    <StyledEmail>
+      <section className="contact">
+        <h2>{title}</h2>
+        <h3>{description}</h3>
+        <form onSubmit={sendEmail}>
+          <input type="text" placeholder="Name" name="from_name"></input>
+          <input type="email" placeholder="Email" name="reply_to"></input>
+          <textarea
+            placeholder="Message"
+            className="message"
+            name="message"
+          ></textarea>
+          <button type="submit">Send Message</button>
+          {emailSuccess ? (
+            <small>
+              <br />
+              Thanks for getting in touch ! ⭐️
+            </small>
+          ) : (
+            <span></span>
+          )}
+        </form>
+      </section>
+    </StyledEmail>
   )
 }
 

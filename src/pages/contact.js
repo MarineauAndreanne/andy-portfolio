@@ -5,7 +5,7 @@ import Email from "../components/Email"
 const contact = () => {
   return (
     <Layout>
-      <Email />
+      <Email title={"CONTACT"} description={"Get in touch"} />
     </Layout>
   )
 }

@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import "./AboutMe.css"
+import { StyledAbout } from "./styled/StyledAbout"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -14,22 +13,22 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons"
 
-import postgresql from "../images/icons/postgresql.jpeg"
+import postgresql from "../images/icons/postgresql.png"
 import gatsby from "../images/icons/gatsby.png"
 import netlify from "../images/icons/netlify.ico"
 import responsive from "../images/icons/responsive.ico"
 import seo from "../images/icons/seo.ico"
 import nextjs from "../images/icons/nextjs.ico"
 
-const AboutMe = () => {
+const AboutMe = ({ title, description }) => {
   return (
-    <section className="container">
-      <span className="page-title">ABOUT</span>
-      <h2>
-        <span className="nurse">Nurse.</span> Full-stack web developer.
-      </h2>
+    <StyledAbout>
+      <h2 className="page-title">{title}</h2>
+      <h3>
+        <span className="nurse">Nurse.</span> {description}
+      </h3>
       <div className="about">
-        <div className="text">
+        <div>
           <p>
             I recently pivoted from a career in healthcare to follow a shift in
             my interests and to pursue the kind of work that energizes and
@@ -38,6 +37,7 @@ const AboutMe = () => {
             high paced environment. I believe that my organizational skills,
             leadership abilities and high levels of motivation will allow me to
             thrive in this new position.
+            <br />
           </p>
 
           <div className="skills">
@@ -49,12 +49,20 @@ const AboutMe = () => {
             <FontAwesomeIcon icon={faReact} className="skills-icon" />
             <FontAwesomeIcon icon={faNodeJs} className="skills-icon" />
 
-            <img src={gatsby} className="skills-icon"></img>
-            <img src={netlify} className="skills-icon"></img>
-            <img src={responsive} className="skills-icon"></img>
-            <img src={seo} className="skills-icon"></img>
-            <img src={nextjs} className="skills-icon"></img>
-            <img src={postgresql} className="skills-icon"></img>
+            <img src={gatsby} alt="gatsby-logo" className="skills-icon"></img>
+            <img src={netlify} alt="netlify-logo" className="skills-icon"></img>
+            <img
+              src={responsive}
+              alt="responsive-logo"
+              className="skills-icon"
+            ></img>
+            <img src={seo} alt="seo-logo" className="skills-icon"></img>
+            <img src={nextjs} alt="nextjs-logo" className="skills-icon"></img>
+            <img
+              src={postgresql}
+              alt="postgresql-logo"
+              className="skills-icon"
+            ></img>
           </div>
         </div>
         <div className="list">
@@ -76,7 +84,7 @@ const AboutMe = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </StyledAbout>
   )
 }
 

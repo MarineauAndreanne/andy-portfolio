@@ -50,7 +50,11 @@ const portfolio = () => {
   ]
   return (
     <Layout>
-      <Projects projects={projects} />
+      <Projects
+        title={"PORTFOLIO"}
+        description={"Web Development Projects"}
+        projects={projects}
+      />
     </Layout>
   )
 }
