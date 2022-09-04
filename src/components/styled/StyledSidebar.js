@@ -9,12 +9,13 @@ export const StyledSidebar = styled.span`
     overflow: auto;
     position: fixed;
     width: 400px;
+    z-index: 2;
   }
 
   img {
     margin-top: 20px;
     margin-left: -40px;
-    z-index: -1;
+    /* z-index: -1; */
     width: 200px;
     border-radius: 0;
     position: relative;

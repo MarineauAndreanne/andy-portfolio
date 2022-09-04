@@ -18,6 +18,7 @@ export const StyledProjects = styled.section`
 
   .image-zoom {
     height: 425px;
+    opacity: 0.9;
     overflow: hidden;
     width: 425px;
   }
@@ -49,13 +50,14 @@ export const StyledProjects = styled.section`
 
   .description {
     background-color: var(--light-grey);
-    color: var(--dark-grey);
+    color: var(--accents);
+    font-size: 12px;
+    font-style: italic;
     padding: 8px 16px;
   }
 
-  .description p {
-    font-size: 12px;
-    font-style: italic;
+  .detailed-description {
+    color: var(--dark-grey);
   }
 
   a {
@@ -66,6 +68,11 @@ export const StyledProjects = styled.section`
     margin-top: 20px;
     padding: 8px 16px;
     transition: all 200ms ease-in-out;
+  }
+
+  a.general-link {
+    margin: 0;
+    padding: 0;
   }
 
   .project:hover img {
@@ -83,10 +90,6 @@ export const StyledProjects = styled.section`
 
   @media screen and (max-width: 1200px) {
     .projects {
-      ${
-        "" /* width: 100vh;
-      height: 100vh; */
-      }
     }
 
     .projects-row {

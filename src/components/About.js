@@ -19,16 +19,20 @@ import netlify from "../images/icons/netlify.ico"
 import responsive from "../images/icons/responsive.ico"
 import seo from "../images/icons/seo.ico"
 import nextjs from "../images/icons/nextjs.ico"
+import tailwind from "../images/icons/tailwind.ico"
+import mui from "../images/icons/mui.ico"
+import firebase from "../images/icons/firebase.svg"
+import heroku from "../images/icons/heroku.svg"
 
 const AboutMe = ({ title, description }) => {
   return (
     <StyledAbout>
       <h2 className="page-title">{title}</h2>
       <h3>
-        <span className="nurse">Nurse.</span> {description}
+        <div className="nurse">Nurse.</div> {description}
       </h3>
       <div className="about">
-        <div>
+        <div className="about-content">
           <p>
             I recently pivoted from a career in healthcare to follow a shift in
             my interests and to pursue the kind of work that energizes and
@@ -63,6 +67,18 @@ const AboutMe = ({ title, description }) => {
               alt="postgresql-logo"
               className="skills-icon"
             ></img>
+            <img
+              src={tailwind}
+              alt="tailwind-logo"
+              className="skills-icon"
+            ></img>
+            <img src={mui} alt="mui-logo" className="skills-icon"></img>
+            <img
+              src={firebase}
+              alt="firebase-logo"
+              className="skills-icon"
+            ></img>
+            <img src={heroku} alt="heroku-logo" className="skills-icon"></img>
           </div>
         </div>
         <div className="list">

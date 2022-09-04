@@ -2,7 +2,7 @@
 
 :root {
   --dark-grey: #4d4d4d;
-  --light-grey: #e8e5e5;
+  --light-grey: #d0d0d0;
   --accents: #000;
 }
 
@@ -14,7 +14,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 2880px;
   padding: 0;
 }
 

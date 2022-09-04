@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import emailjs from "emailjs-com"
 
 import { StyledEmail } from "./styled/StyledEmail"
+// const apiKey = process.env.EMAILJS_PUBLIC_KEY
 
 const Email = ({ title, description }) => {
   const [emailSuccess, setEmailSuccess] = useState(null)

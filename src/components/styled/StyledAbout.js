@@ -24,12 +24,14 @@ export const StyledAbout = styled.section`
     justify-content: space-evenly;
     margin-top: 100px;
     padding-right: 40px;
+    flex-wrap: wrap;
   }
 
   .skills-icon,
   img.skills-icon {
     color: var(--accents);
     font-size: 30px;
+    margin-top: 10px;
     width: 30px;
   }
 
@@ -53,13 +55,27 @@ export const StyledAbout = styled.section`
       flex-wrap: wrap;
       justify-content: center;
     }
+    .about p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .skills {
+      margin-top: 50px;
+      padding: 0;
+    }
+
+    .skills-icon,
+    img.skills-icon {
+      margin: 10px 10px;
+    }
 
     .text {
       margin: 0;
     }
 
     .list {
-      margin-top: 100px;
+      margin-top: 50px;
     }
   }
 `

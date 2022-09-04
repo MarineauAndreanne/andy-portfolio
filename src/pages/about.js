@@ -5,7 +5,7 @@ import About from "../components/About"
 const about = () => {
   return (
     <Layout>
-      <About title={"ABOUT"} description={"Full-stack web developer."} />
+      <About title={"ABOUT"} description={"Junior Full-Stack Developer."} />
     </Layout>
   )
 }

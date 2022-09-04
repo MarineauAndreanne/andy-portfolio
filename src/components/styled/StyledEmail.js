@@ -30,7 +30,7 @@ export const StyledEmail = styled.section`
     border-radius: 1px;
     color: white;
     font-size: 15px;
-    margin: 10px;
+    margin: 10px 0 25px 0;
     padding: 15px 30px;
     transition: all 200ms ease-in-out;
   }
