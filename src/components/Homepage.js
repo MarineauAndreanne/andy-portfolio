@@ -2,6 +2,8 @@ import React from "react"
 
 import { StyledHomepage } from "./styled/StyledHomepage"
 import ProfilePicture from "../images/test-profile-pic.jpg"
+import ProfilePicture2 from "../images/profile_1.jpg"
+import ProfilePicture3 from "../images/profile-5.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -16,7 +18,7 @@ const Homepage = () => {
     <StyledHomepage>
       <section className="homepage">
         <div>
-          <img src={ProfilePicture} alt="portait" />
+          <img src={ProfilePicture2} alt="portait" />
         </div>
         <div className="infos">
           <h1>
@@ -25,8 +27,9 @@ const Homepage = () => {
           </h1>
 
           <p>
-            Creative Photographer based in New York and happy to travel all over
-            Europe to capture photos.
+            Junior Full-Stack Developer based in Montreal.
+            <br />
+            Available for New Opportunities
           </p>
 
           <div>

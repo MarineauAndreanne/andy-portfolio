@@ -48,6 +48,11 @@ export const StyledHomepage = styled.section`
       flex-wrap: wrap;
       justify-content: center;
     }
+
+    img {
+      margin-top: 30px;
+    }
+
     .infos {
       margin: 0;
     }

@@ -110,4 +110,10 @@ export const StyledProjects = styled.section`
       opacity: 1;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    h3 {
+      margin-bottom: 40px;
+    }
+  }
 `

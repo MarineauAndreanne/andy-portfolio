@@ -48,37 +48,43 @@ const AboutMe = ({ title, description }) => {
             <FontAwesomeIcon icon={faHtml5} className="skills-icon" />
             <FontAwesomeIcon icon={faCss3Alt} className="skills-icon" />
             <FontAwesomeIcon icon={faJs} className="skills-icon" />
-            <FontAwesomeIcon icon={faBootstrap} className="skills-icon" />
-            <FontAwesomeIcon icon={faGithub} className="skills-icon" />
-            <FontAwesomeIcon icon={faReact} className="skills-icon" />
-            <FontAwesomeIcon icon={faNodeJs} className="skills-icon" />
-
-            <img src={gatsby} alt="gatsby-logo" className="skills-icon"></img>
-            <img src={netlify} alt="netlify-logo" className="skills-icon"></img>
-            <img
-              src={responsive}
-              alt="responsive-logo"
-              className="skills-icon"
-            ></img>
-            <img src={seo} alt="seo-logo" className="skills-icon"></img>
-            <img src={nextjs} alt="nextjs-logo" className="skills-icon"></img>
             <img
               src={postgresql}
               alt="postgresql-logo"
-              className="skills-icon"
+              className="skills-icon exception"
             ></img>
-            <img
-              src={tailwind}
-              alt="tailwind-logo"
-              className="skills-icon"
-            ></img>
-            <img src={mui} alt="mui-logo" className="skills-icon"></img>
-            <img
-              src={firebase}
-              alt="firebase-logo"
-              className="skills-icon"
-            ></img>
-            <img src={heroku} alt="heroku-logo" className="skills-icon"></img>
+            <FontAwesomeIcon icon={faReact} className="skills-icon" />
+            <FontAwesomeIcon icon={faNodeJs} className="skills-icon" />
+            <img src={nextjs} alt="nextjs-logo" className="skills-icon"></img>
+            <span className="skills-icon-secondary">
+              <img src={gatsby} alt="gatsby-logo" className="skills-icon"></img>
+              <FontAwesomeIcon icon={faBootstrap} className="skills-icon" />
+              <FontAwesomeIcon icon={faGithub} className="skills-icon" />
+
+              <img
+                src={netlify}
+                alt="netlify-logo"
+                className="skills-icon"
+              ></img>
+              <img
+                src={responsive}
+                alt="responsive-logo"
+                className="skills-icon"
+              ></img>
+              <img src={seo} alt="seo-logo" className="skills-icon"></img>
+              <img
+                src={tailwind}
+                alt="tailwind-logo"
+                className="skills-icon"
+              ></img>
+              <img src={mui} alt="mui-logo" className="skills-icon"></img>
+              <img
+                src={firebase}
+                alt="firebase-logo"
+                className="skills-icon"
+              ></img>
+              <img src={heroku} alt="heroku-logo" className="skills-icon"></img>
+            </span>
           </div>
         </div>
         <div className="list">

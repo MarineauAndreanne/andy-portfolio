@@ -35,6 +35,19 @@ export const StyledAbout = styled.section`
     width: 30px;
   }
 
+  img.skills-icon.exception {
+    margin-right: 0;
+  }
+
+  .skills-icon-secondary {
+    display: flex;
+  }
+  .skills-icon-secondary > .skills-icon,
+  img.skills-icon {
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+
   .list {
     flex-shrink: 0;
   }
@@ -76,6 +89,24 @@ export const StyledAbout = styled.section`
 
     .list {
       margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    h3 {
+      margin-bottom: 60px;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    span.skills-icon-secondary {
+      display: none;
+    }
+
+    .list {
+      margin-top: 5px;
     }
   }
 `
