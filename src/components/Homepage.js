@@ -2,8 +2,9 @@ import React from "react"
 
 import { StyledHomepage } from "./styled/StyledHomepage"
 import ProfilePicture from "../images/test-profile-pic.jpg"
-import ProfilePicture2 from "../images/profile_1.jpg"
-import ProfilePicture3 from "../images/profile-5.jpg"
+import ProfilePicture1 from "../images/profile_1.jpg"
+import ProfilePicture2 from "../images/profile_2.jpg"
+import ProfilePicture3 from "../images/profile_3.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -48,14 +49,14 @@ const Homepage = () => {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a
-              href="https://www.instagram.com/marineau.andreanne/"
+              href="https://www.linkedin.com/in/andreannemarineau/"
               target="_blank"
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
-              href="https://www.instagram.com/marineau.andreanne/"
+              href="https://twitter.com/AndreanneMarin1"
               target="_blank"
               rel="noreferrer"
             >
