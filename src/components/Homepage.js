@@ -19,7 +19,7 @@ const Homepage = () => {
     <StyledHomepage>
       <section className="homepage">
         <div>
-          <img src={ProfilePicture2} alt="portait" />
+          <img src={ProfilePicture} alt="portait" />
         </div>
         <div className="infos">
           <h1>
