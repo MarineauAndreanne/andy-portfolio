@@ -20,6 +20,7 @@ const Homepage = () => {
             src="../images/test-profile-pic-min.jpg"
             alt="profile picture"
             className="img"
+            loading="eager"
           />
         </div>
         <div className="infos">
