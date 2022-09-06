@@ -1,10 +1,7 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import { StyledHomepage } from "./styled/StyledHomepage"
-import ProfilePicture from "../images/test-profile-pic-min.jpg"
-import ProfilePicture1 from "../images/profile_1.jpg"
-import ProfilePicture2 from "../images/profile_2.jpg"
-import ProfilePicture3 from "../images/profile_3.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -19,7 +16,11 @@ const Homepage = () => {
     <StyledHomepage>
       <section className="homepage">
         <div>
-          <img src={ProfilePicture} alt="portait" />
+          <StaticImage
+            src="../images/test-profile-pic-min.jpg"
+            alt="profile picture"
+            className="img"
+          />
         </div>
         <div className="infos">
           <h1>

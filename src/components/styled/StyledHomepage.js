@@ -6,7 +6,7 @@ export const StyledHomepage = styled.section`
     display: flex;
   }
 
-  img {
+  .img {
     border-radius: 50%;
     margin-top: 60px;
     position: relative;
