@@ -1,17 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: `andy-portfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://andy-marineau.com`,
   },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "React go",
-        short_name: "Reactgo",
+        name: "Andy Marineau",
+        short_name: "Andy",
         start_url: "/",
         background_color: "#f7f0eb",
         theme_color: "#a2466c",

@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StyledSidebar } from "./styled/StyledSidebar"
+import { StyledSidebar } from "./styles"
 
-import logo from "../images/andy-logo-2.png"
+import logo from "images/andy-logo-2.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {

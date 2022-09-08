@@ -1,7 +1,4 @@
 import React from "react"
-
-import { StyledAbout } from "./styled/StyledAbout"
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faHtml5,
@@ -13,16 +10,18 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons"
 
-import postgresql from "../images/icons/postgresql.png"
-import gatsby from "../images/icons/gatsby.png"
-import netlify from "../images/icons/netlify.ico"
-import responsive from "../images/icons/responsive.ico"
-import seo from "../images/icons/seo.ico"
-import nextjs from "../images/icons/nextjs.ico"
-import tailwind from "../images/icons/tailwind.ico"
-import mui from "../images/icons/mui.ico"
-import firebase from "../images/icons/firebase.svg"
-import heroku from "../images/icons/heroku.svg"
+import { StyledAbout } from "./styles"
+
+import postgresql from "images/icons/postgresql.png"
+import gatsby from "images/icons/gatsby.png"
+import netlify from "images/icons/netlify.ico"
+import responsive from "images/icons/responsive.ico"
+import seo from "images/icons/seo.ico"
+import nextjs from "images/icons/nextjs.ico"
+import tailwind from "images/icons/tailwind.ico"
+import mui from "images/icons/mui.ico"
+import firebase from "images/icons/firebase.svg"
+import heroku from "images/icons/heroku.svg"
 
 const AboutMe = ({ title, description }) => {
   return (

@@ -1,13 +1,8 @@
 import React from "react"
-import Layout from "../components/Layout"
-import About from "../components/About"
+import About from "components/About"
 
-const about = () => {
-  return (
-    <Layout>
-      <About title={"ABOUT"} description={"Junior Full-Stack Developer."} />
-    </Layout>
-  )
+const AboutPage = () => {
+  return <About title="ABOUT" description="Junior Full-Stack Developer." />
 }
 
-export default about
+export default AboutPage

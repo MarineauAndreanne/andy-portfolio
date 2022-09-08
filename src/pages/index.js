@@ -1,15 +1,8 @@
 import * as React from "react"
-import Layout from "../components/Layout"
-import Homepage from "../components/Homepage"
-
-import "../styles/global.css"
+import Homepage from "components/Homepage"
 
 const IndexPage = () => {
-  return (
-    <Layout>
-      <Homepage />
-    </Layout>
-  )
+  return <Homepage />
 }
 
 export default IndexPage
