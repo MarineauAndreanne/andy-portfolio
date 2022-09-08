@@ -1,7 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;0,800;1,100;1,200;1,400;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
 
   :root {
     --dark-grey: #4d4d4d;
