@@ -6,7 +6,6 @@ const Contact = () => {
   return (
     <>
       <Email title="CONTACT" description="Get in touch" />
-      <Toaster />
     </>
   )
 }

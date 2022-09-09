@@ -11,7 +11,7 @@ import { faHouse, faUser, faSuitcase, faEnvelope } from '@fortawesome/free-solid
 const Sidebar = () => {
   const copyToClipboard = () => {
     navigator.clipboard.writeText('marineau.andreanne@gmail.com')
-    toast('copied', { duration: 2000, position: 'bottom-center' })
+    toast('Copied to clipboard!', { duration: 2000, position: 'bottom-center' })
   }
   return (
     <StyledSidebar>
@@ -23,7 +23,7 @@ const Sidebar = () => {
           <li>
             <Link
               to="/"
-              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
+              style={{ textDecoration: 'none', color: 'var(--medium-grey)' }}
               activeStyle={{
                 color: '#000',
                 fontWeight: 600
@@ -36,7 +36,7 @@ const Sidebar = () => {
           <li>
             <Link
               to="/about"
-              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
+              style={{ textDecoration: 'none', color: 'var(--medium-grey)' }}
               activeStyle={{
                 color: '#000',
                 fontWeight: 600
@@ -49,7 +49,7 @@ const Sidebar = () => {
           <li>
             <Link
               to="/portfolio"
-              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
+              style={{ textDecoration: 'none', color: 'var(--medium-grey)' }}
               activeStyle={{
                 color: '#000',
                 fontWeight: 600
@@ -62,7 +62,7 @@ const Sidebar = () => {
           <li>
             <Link
               to="/contact"
-              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
+              style={{ textDecoration: 'none', color: 'var(--medium-grey)' }}
               activeStyle={{
                 color: '#000',
                 fontWeight: 600

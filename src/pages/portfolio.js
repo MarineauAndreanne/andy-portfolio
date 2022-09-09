@@ -7,7 +7,6 @@ const Portfolio = () => {
   return (
     <>
       <Projects title={'PORTFOLIO'} description={'Web Development Projects'} projects={projects} />
-      <Toaster />
     </>
   )
 }
