@@ -6,7 +6,6 @@ const IndexPage = () => {
   return (
     <>
       <Homepage />
-      <Toaster />
     </>
   )
 }

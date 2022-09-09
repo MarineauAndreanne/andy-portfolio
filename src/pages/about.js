@@ -6,7 +6,6 @@ const AboutPage = () => {
   return (
     <>
       <About title="ABOUT" description="Junior Full-Stack Developer." />
-      <Toaster />
     </>
   )
 }
