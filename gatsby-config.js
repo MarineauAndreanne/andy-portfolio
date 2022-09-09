@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `andy-portfolio`,
-    siteUrl: `https://andy-marineau.com`
+    siteUrl: `https://andy-marineau.com`,
+    pathPrefix: '/andy-portfolio'
   },
   plugins: [
     {
