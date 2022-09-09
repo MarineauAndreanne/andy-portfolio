@@ -7,7 +7,7 @@ export const StyledHomepage = styled.section`
   }
 
   .img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-top: 60px;
     position: relative;
     width: 300px;

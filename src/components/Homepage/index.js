@@ -9,9 +9,20 @@ const Homepage = () => {
   return (
     <StyledHomepage>
       <section className="homepage">
-        <div>
-          <StaticImage src="../../images/andreanne-headshot.jpg" alt="profile picture" className="img" />
-        </div>
+        <StaticImage
+          src="../../images/andreanne-headshot.jpg"
+          alt="profile picture"
+          style={{
+            marginTop: '60px',
+            position: 'relative',
+            width: '300px',
+            overflow: 'hidden',
+            borderRadius: '50%'
+          }}
+          imgStyle={{
+            borderRadius: '50%'
+          }}
+        />
         <div className="infos">
           <h1>
             ANDREANNE <br />
