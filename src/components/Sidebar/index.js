@@ -74,9 +74,9 @@ const Sidebar = () => {
           </li>
           <p className="email-details">
             Get in Touch:
-            <a id="email-link" onClick={copyToClipboard}>
+            <button id="email-link" onClick={copyToClipboard}>
               marineau.andreanne@gmail.com
-            </a>
+            </button>
           </p>
         </ul>
       </div>

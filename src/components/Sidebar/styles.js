@@ -32,12 +32,15 @@ export const StyledSidebar = styled.span`
     margin-top: 100px;
   }
 
-  a#email-link {
+  button {
+    background: none;
+    border: none;
     display: block;
     font-size: 11px;
+    padding: 0;
   }
 
-  a#email-link:hover {
+  button:hover {
     cursor: pointer;
     opacity: 0.4;
   }
