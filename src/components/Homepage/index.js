@@ -10,7 +10,7 @@ const Homepage = () => {
     <StyledHomepage>
       <section className="homepage">
         <div>
-          <StaticImage src="../../images/test-profile-pic-2.jpg" alt="profile picture" className="img" />
+          <StaticImage src="../../images/andreanne-headshot.jpg" alt="profile picture" className="img" />
         </div>
         <div className="infos">
           <h1>
