@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const StyledSidebar = styled.span`
   .sidebar-container {
@@ -15,7 +15,6 @@ export const StyledSidebar = styled.span`
   img {
     margin-top: 20px;
     margin-left: -40px;
-    /* z-index: -1; */
     width: 200px;
     border-radius: 0;
     position: relative;
@@ -26,6 +25,21 @@ export const StyledSidebar = styled.span`
     list-style: none;
     margin: 0;
     padding: 40px 0;
+  }
+
+  .email-details {
+    font-size: 11px;
+    margin-top: 100px;
+  }
+
+  a#email-link {
+    display: block;
+    font-size: 11px;
+  }
+
+  a#email-link:hover {
+    cursor: pointer;
+    opacity: 0.4;
   }
 
   li {
@@ -41,14 +55,6 @@ export const StyledSidebar = styled.span`
 
   .link-icon {
     margin-right: 10px;
-  }
-
-  #copyrights {
-    color: var(--light-grey);
-    font-size: 12px;
-    font-style: italic;
-    line-height: 25px;
-    margin-top: 50px;
   }
 
   @media screen and (max-width: 1200px) {
@@ -84,17 +90,13 @@ export const StyledSidebar = styled.span`
       margin-left: 45px;
       font-size: large;
     }
-
-    #copyrights {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 1200px) {
     section {
       margin: 0;
       padding: 0;
       width: 100vh;
+    }
+    .email-details {
+      display: none;
     }
   }
 

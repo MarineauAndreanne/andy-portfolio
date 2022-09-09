@@ -1,8 +1,14 @@
-import React from "react"
-import Email from "components/Email"
+import React from 'react'
+import { Toaster } from 'react-hot-toast'
+import Email from 'components/Email'
 
 const Contact = () => {
-  return <Email title="CONTACT" description="Get in touch" />
+  return (
+    <>
+      <Email title="CONTACT" description="Get in touch" />
+      <Toaster />
+    </>
+  )
 }
 
 export default Contact

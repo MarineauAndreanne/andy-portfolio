@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const StyledAbout = styled.section`
   .nurse {
@@ -16,15 +16,24 @@ export const StyledAbout = styled.section`
     font-size: 14px;
     text-align: justify;
     margin-right: 40px;
+    max-width: 800px;
   }
 
   .skills {
-    align-content: center;
-    display: flex;
-    justify-content: space-evenly;
     margin-top: 100px;
     padding-right: 40px;
-    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 30px auto;
+  }
+
+  .row {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .skills-icon-secondary {
+    margin-top: 15px;
   }
 
   .skills-icon,
@@ -37,15 +46,6 @@ export const StyledAbout = styled.section`
 
   img.skills-icon.exception {
     margin-right: 0;
-  }
-
-  .skills-icon-secondary {
-    display: flex;
-  }
-  .skills-icon-secondary > .skills-icon,
-  img.skills-icon {
-    margin-right: 20px;
-    margin-top: 15px;
   }
 
   .list {

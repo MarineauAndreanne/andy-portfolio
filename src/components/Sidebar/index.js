@@ -1,18 +1,18 @@
-import React from "react"
-import { Link } from "gatsby"
-import { StyledSidebar } from "./styles"
+import React from 'react'
+import { Link } from 'gatsby'
+import { StyledSidebar } from './styles'
+import { toast } from 'react-hot-toast'
 
-import logo from "images/andy-logo-2.png"
+import logo from 'images/andy-logo-2.png'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faHouse,
-  faUser,
-  faSuitcase,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse, faUser, faSuitcase, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText('marineau.andreanne@gmail.com')
+    toast('copied', { duration: 2000, position: 'bottom-center' })
+  }
   return (
     <StyledSidebar>
       <div className="sidebar-container">
@@ -23,10 +23,10 @@ const Sidebar = () => {
           <li>
             <Link
               to="/"
-              style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
               activeStyle={{
-                color: "#000",
-                fontWeight: 600,
+                color: '#000',
+                fontWeight: 600
               }}
             >
               <FontAwesomeIcon icon={faHouse} className="link-icon home" />
@@ -36,10 +36,10 @@ const Sidebar = () => {
           <li>
             <Link
               to="/about"
-              style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
               activeStyle={{
-                color: "#000",
-                fontWeight: 600,
+                color: '#000',
+                fontWeight: 600
               }}
             >
               <FontAwesomeIcon icon={faUser} className="link-icon" />
@@ -49,10 +49,10 @@ const Sidebar = () => {
           <li>
             <Link
               to="/portfolio"
-              style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
               activeStyle={{
-                color: "#000",
-                fontWeight: 600,
+                color: '#000',
+                fontWeight: 600
               }}
             >
               <FontAwesomeIcon icon={faSuitcase} className="link-icon" />
@@ -62,23 +62,22 @@ const Sidebar = () => {
           <li>
             <Link
               to="/contact"
-              style={{ textDecoration: "none", color: "var(--lightgrey)" }}
+              style={{ textDecoration: 'none', color: 'var(--lightgrey)' }}
               activeStyle={{
-                color: "#000",
-                fontWeight: 600,
+                color: '#000',
+                fontWeight: 600
               }}
             >
               <FontAwesomeIcon icon={faEnvelope} className="link-icon" />
               <span className="link-title">Contact</span>
             </Link>
           </li>
-          <li id="copyrights">
-            2022
-            <br />
-            Coded by Andreanne Marineau
-            <br />
-            Original design by Ib-Themes
-          </li>
+          <p className="email-details">
+            Get in Touch:
+            <a id="email-link" onClick={copyToClipboard}>
+              marineau.andreanne@gmail.com
+            </a>
+          </p>
         </ul>
       </div>
     </StyledSidebar>

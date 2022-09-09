@@ -1,25 +1,16 @@
-import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faInstagram,
-  faLinkedin,
-  faTwitter,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons"
+import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import { StyledHomepage } from "./styles"
+import { StyledHomepage } from './styles'
 
 const Homepage = () => {
   return (
     <StyledHomepage>
       <section className="homepage">
         <div>
-          <StaticImage
-            src="../../images/test-profile-pic.jpg"
-            alt="profile picture"
-            className="img"
-          />
+          <StaticImage src="../../images/test-profile-pic-2.jpg" alt="profile picture" className="img" />
         </div>
         <div className="infos">
           <h1>
@@ -30,36 +21,20 @@ const Homepage = () => {
           <p>
             Junior Full-Stack Developer based in Montreal.
             <br />
-            Available for New Opportunities
+            Available for new opportunities.
           </p>
 
           <div>
-            <a
-              href="https://github.com/MarineauAndreanne?tab=repositories"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/MarineauAndreanne?tab=repositories" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a
-              href="https://www.instagram.com/marineau.andreanne/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.instagram.com/marineau.andreanne/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a
-              href="https://www.linkedin.com/in/andreannemarineau/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.linkedin.com/in/andreannemarineau/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a
-              href="https://twitter.com/AndreanneMarin1"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://twitter.com/AndreanneMarin1" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>

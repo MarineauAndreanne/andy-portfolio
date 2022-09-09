@@ -1,8 +1,14 @@
-import * as React from "react"
-import Homepage from "components/Homepage"
+import * as React from 'react'
+import { Toaster } from 'react-hot-toast'
+import Homepage from 'components/Homepage'
 
 const IndexPage = () => {
-  return <Homepage />
+  return (
+    <>
+      <Homepage />
+      <Toaster />
+    </>
+  )
 }
 
 export default IndexPage

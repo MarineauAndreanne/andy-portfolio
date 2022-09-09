@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const StyledHomepage = styled.section`
   section {
@@ -13,7 +13,7 @@ export const StyledHomepage = styled.section`
     width: 300px;
   }
 
-  .infos {
+  div.infos {
     margin-left: 80px;
   }
 
@@ -34,7 +34,7 @@ export const StyledHomepage = styled.section`
   a {
     color: var(--accents);
     font-size: 18px;
-    margin-right: 20px;
+    margin-right: 25px;
     transition: all 200ms ease-in-out;
   }
 
@@ -49,11 +49,7 @@ export const StyledHomepage = styled.section`
       justify-content: center;
     }
 
-    img {
-      margin-top: 30px;
-    }
-
-    .infos {
+    div.infos {
       margin: 0;
     }
   }

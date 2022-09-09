@@ -36,6 +36,7 @@
     "gatsby-transformer-sharp": "^4.22.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hot-toast": "^2.3.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
