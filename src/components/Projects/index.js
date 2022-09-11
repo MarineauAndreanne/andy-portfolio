@@ -23,7 +23,7 @@ const Projects = ({ title, description, projects }) => {
         <h3>{description}</h3>
 
         {projectRows.map((projectsInRow) => (
-          <div className="projects-row">
+          <div className="projects-row" data-aos="fade-up">
             {projectsInRow.map((project) => (
               <a href={project.netlifyLink} target="_blank" rel="noreferrer" className="general-link">
                 <div className="project">
