@@ -53,7 +53,7 @@ const projects = [
   {
     name: 'Read-it',
     description: 'Reddit Clone',
-    details: 'Next JS - Typescvript - Apollo - Next Auth - GraphQL - PostgreSQL',
+    details: 'Next JS - Typescript - Apollo - Next Auth - GraphQL - PostgreSQL',
     githubLink: 'https://github.com/MarineauAndreanne/read-it',
     netlifyLink: 'https://read-it-theta.vercel.app/',
     image: Reddit
