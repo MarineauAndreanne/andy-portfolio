@@ -27,6 +27,14 @@ const projects = [
     image: TravelAdvisor
   },
   {
+    name: 'Read-it',
+    description: 'Reddit Clone',
+    details: 'Next JS - Typescript - Apollo - Next Auth - GraphQL - PostgreSQL',
+    githubLink: 'https://github.com/MarineauAndreanne/read-it',
+    netlifyLink: 'https://read-it-theta.vercel.app/',
+    image: Reddit
+  },
+  {
     name: 'Space News',
     description: 'Explore space through different endpoints and functionalities from multiple NASA APIs',
     details: 'React - NASA public APIs',
@@ -49,14 +57,6 @@ const projects = [
     githubLink: 'https://github.com/MarineauAndreanne/dictionary-app-react',
     netlifyLink: 'https://marineau-andy-dictionary.netlify.app',
     image: Dictionary
-  },
-  {
-    name: 'Read-it',
-    description: 'Reddit Clone',
-    details: 'Next JS - Typescript - Apollo - Next Auth - GraphQL - PostgreSQL',
-    githubLink: 'https://github.com/MarineauAndreanne/read-it',
-    netlifyLink: 'https://read-it-theta.vercel.app/',
-    image: Reddit
   },
   {
     name: 'Les Bacs Granger',
