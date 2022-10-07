@@ -10,8 +10,9 @@ import netlify from 'images/icons/netlify.ico'
 import nextjs from 'images/icons/nextjs.ico'
 import tailwind from 'images/icons/tailwind.ico'
 import mui from 'images/icons/mui.ico'
-import firebase from 'images/icons/firebase.svg'
-import heroku from 'images/icons/heroku.svg'
+import docker from 'images/icons/docker.png'
+import webpack from 'images/icons/webpack.png'
+import typescript from 'images/icons/typescript.png'
 
 const AboutMe = ({ title, description }) => {
   return (
@@ -41,11 +42,12 @@ const AboutMe = ({ title, description }) => {
             </div>
             <div className="row skills-icon-secondary">
               <img src={netlify} alt="netlify-logo" className="skills-icon"></img>
+              <img src={typescript} alt="typescript-logo" className="skills-icon"></img>
 
               <img src={tailwind} alt="tailwind-logo" className="skills-icon"></img>
               <img src={mui} alt="mui-logo" className="skills-icon"></img>
-              <img src={firebase} alt="firebase-logo" className="skills-icon"></img>
-              <img src={heroku} alt="heroku-logo" className="skills-icon"></img>
+              <img src={docker} alt="docker-logo" className="skills-icon"></img>
+              <img src={webpack} alt="webpack-logo" className="skills-icon"></img>
             </div>
           </div>
         </div>
