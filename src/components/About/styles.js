@@ -13,17 +13,16 @@ export const StyledAbout = styled.section`
   }
 
   .about p {
-    font-size: 14px;
-    text-align: justify;
+    font-size: 15px;
     margin-right: 40px;
+    margin-bottom: 20px;
     max-width: 800px;
   }
 
   .skills {
-    margin-top: 100px;
     padding-right: 40px;
     max-width: 700px;
-    margin: 30px auto;
+    margin: 80px auto;
   }
 
   .row {
@@ -53,9 +52,10 @@ export const StyledAbout = styled.section`
   }
 
   .about ul {
+    border-left: 2px solid #eee;
     font-size: 12px;
     list-style: none;
-    padding: 0;
+    padding: 5px 0 5px 20px;
   }
 
   .list-title {
@@ -66,11 +66,21 @@ export const StyledAbout = styled.section`
   @media screen and (max-width: 1200px) {
     .about {
       flex-wrap: wrap;
-      justify-content: center;
+
+      /* justify-content: center; */
     }
     .about p {
       margin: 0;
       padding: 0;
+    }
+
+    .about ul {
+      border-left: 0;
+      border-top: 2px solid #eee;
+      padding-top: 40px;
+      padding-left: 0;
+      margin-top: 30px;
+      margin-bottom: 30px;
     }
 
     .skills {
@@ -89,6 +99,7 @@ export const StyledAbout = styled.section`
 
     .list {
       margin-top: 50px;
+      width: 100%;
     }
   }
 
@@ -98,7 +109,7 @@ export const StyledAbout = styled.section`
     }
 
     .skills {
-      margin-top: 20px;
+      margin: 60px auto;
     }
 
     span.skills-icon-secondary {

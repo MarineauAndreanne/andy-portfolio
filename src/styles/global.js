@@ -11,8 +11,8 @@ export const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-    letter-spacing: 1px;
-    line-height: 30px;
+    letter-spacing: 0.06rem;
+    line-height: 1.75;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -61,12 +61,12 @@ export const GlobalStyle = createGlobalStyle`
       justify-content: center;
       margin-left: 0;
       padding-top: 180px;
-      text-align: center;
+      ${'' /* text-align: center; */}
     }
 
     @media screen and (max-width: 800px) {
       .content {
-        padding: 120px 20px;
+        padding: 120px 25px;
       }
     }
   }
