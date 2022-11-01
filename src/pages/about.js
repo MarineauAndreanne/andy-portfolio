@@ -1,5 +1,4 @@
 import React from 'react'
-import { Toaster } from 'react-hot-toast'
 import About from 'components/About'
 
 const AboutPage = () => {

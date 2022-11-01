@@ -1,5 +1,4 @@
 import React from 'react'
-import { Toaster } from 'react-hot-toast'
 import Projects from 'components/Projects'
 import projects from 'data/projects'
 

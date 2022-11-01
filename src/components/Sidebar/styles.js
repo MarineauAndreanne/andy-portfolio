@@ -63,6 +63,7 @@ export const StyledSidebar = styled.span`
   @media screen and (max-width: 1200px) {
     .sidebar-container {
       background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
       display: flex;
       height: 80px;
       justify-content: end;
@@ -74,11 +75,10 @@ export const StyledSidebar = styled.span`
     }
 
     img {
-      margin-bottom: 0;
-      position: fixed;
       left: 35px;
-      width: 100px;
       margin: 0;
+      position: fixed;
+      width: 100px;
     }
 
     ul {
@@ -86,6 +86,9 @@ export const StyledSidebar = styled.span`
       padding: 0;
     }
 
+    ul > li {
+      margin: 0;
+    }
     .link-title {
       display: none;
     }
