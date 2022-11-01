@@ -101,7 +101,7 @@ const projects = [
   {
     name: 'Anahata',
     description: 'Booking platform for sustainable jungle resort in Nicaragua',
-    details: ['React (Gatsby)', 'Styled Components', 'Booking Features', 'Work in Progress'],
+    details: ['React (Gatsby)', 'Styled-Components', 'Booking Features', 'Work in Progress'],
     githubLink: 'https://github.com/MarineauAndreanne/anahata-nicaragua',
     netlifyLink: 'https://anahata-nicaragua.netlify.app',
     webPreview: Anahata
