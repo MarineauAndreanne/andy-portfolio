@@ -41,7 +41,7 @@ const Projects = ({ title, description, projects }) => {
               </ul>
 
               <span className="links">
-                {projects.netlifyLink && (
+                {project.netlifyLink && (
                   <a href={project.netlifyLink} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                     <p>Link to website</p>
