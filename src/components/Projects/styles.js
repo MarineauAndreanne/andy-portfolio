@@ -35,13 +35,10 @@ export const StyledProjects = styled.section`
     color: grey;
     font-size: 14px;
     font-style: italic;
-    list-style: circle;
+    list-style: none;
     margin: 0;
     margin-bottom: 20px;
-  }
-
-  p.detailed-description {
-    margin-bottom: 5px;
+    padding: 0;
   }
 
   .detailed-description li {
