@@ -10,7 +10,7 @@ const Homepage = () => {
     <StyledHomepage>
       <section className="homepage">
         <StaticImage
-          src="../../images/andreanne-headshot.jpg"
+          src="../../images/Andy_profile pic_BW.jpg"
           alt="profile picture"
           style={{
             marginTop: '60px',
